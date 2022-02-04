@@ -29,7 +29,7 @@ cc_library(
             "@__bazelrio_com_ctre_phoenix_sim_simcancoder_linuxx86-64//:shared_libs",
         ],
         "@bazel_tools//src/conditions:darwin": [
-            "@__bazelrio_com_ctre_phoenix_wpiapi-cpp_osxx86-64//:shared_libs",
+            "@__bazelrio_com_ctre_phoenix_sim_wpiapi-cpp-sim_osxx86-64//:shared_libs",
             "@__bazelrio_com_ctre_phoenix_api-cpp_osxx86-64//:shared_libs",
             "@__bazelrio_com_ctre_phoenix_sim_cci-sim_osxx86-64//:shared_libs",
             "@__bazelrio_com_ctre_phoenix_sim_simtalonsrx_osxx86-64//:shared_libs",
