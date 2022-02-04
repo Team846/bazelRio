@@ -30,7 +30,7 @@ cc_library(
         ],
         "@bazel_tools//src/conditions:darwin": [
             "@__bazelrio_com_ctre_phoenix_sim_wpiapi-cpp-sim_osxx86-64//:shared_libs",
-            "@__bazelrio_com_ctre_phoenix_api-cpp_osxx86-64//:shared_libs",
+            "@__bazelrio_com_ctre_phoenix_sim_api-cpp-sim_osxx86-64//:shared_libs",
             "@__bazelrio_com_ctre_phoenix_sim_cci-sim_osxx86-64//:shared_libs",
             "@__bazelrio_com_ctre_phoenix_sim_simtalonsrx_osxx86-64//:shared_libs",
             "@__bazelrio_com_ctre_phoenix_sim_simvictorspx_osxx86-64//:shared_libs",
