@@ -17,6 +17,7 @@ cc_library(
         "@__bazelrio_com_ctre_phoenix_api-cpp_headers//:headers",
         "@__bazelrio_com_ctre_phoenix_cci_headers//:headers",
         "@__bazelrio_com_ctre_phoenix_wpiapi-cpp_headers//:headers",
+        "@__bazelrio_com_ctre_phoenixpro_tools_headers//:headers",
         "//libraries/cpp/wpilib/wpilibc",
     ] + select({
         "@bazel_tools//src/conditions:windows": [lib.format("windowsx86-64") for lib in CC_NATIVE_LIBS],

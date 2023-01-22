@@ -89,16 +89,16 @@ def generate_dependencies():
     from toolchain_dependencies import generate_toolchain_dependencies
 
     dependencies = {}
-    dependencies.update(get_wpilib_dependencies())
-    dependencies.update(get_ni_dependencies())
-    dependencies.update(opencv_dependencies())
+    # dependencies.update(get_wpilib_dependencies())
+    # dependencies.update(get_ni_dependencies())
+    # dependencies.update(opencv_dependencies())
     dependencies.update(vendordep_dependencies(os.path.join(SCRIPT_DIR, "vendordeps")))
-    dependencies.update(libssh_dependencies())
-    dependencies.update(imgui_dependencies())
-    dependencies.update(apriltag_dependencies())
+    # dependencies.update(libssh_dependencies())
+    # dependencies.update(imgui_dependencies())
+    # dependencies.update(apriltag_dependencies())
 
     # Start fresh by deleting all of the auto generated dependencies
-    clean_old_files()
+    # clean_old_files()
 
     for maven_dependencies in dependencies.values():
         generate_toplevel_dependency(maven_dependencies)
@@ -107,9 +107,9 @@ def generate_dependencies():
             generate_single_version_dependency(maven_dependency)
 
     # Generate toolchains
-    generate_toolchain_dependencies(
-        DEPENDENCIES_BASE, os.path.join(SCRIPT_DIR, "templates")
-    )
+    # generate_toolchai  n_dependencies(
+    #     DEPENDENCIES_BASE, os.path.join(SCRIPT_DIR, "templates")
+    # )
 
 
 if __name__ == "__main__":

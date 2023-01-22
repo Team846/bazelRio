@@ -20,10 +20,10 @@ def setup_bazelrio_dependencies(
         wpilib_version = "2023.1.1",
         ni_version = "2023.3.0",
         opencv_version = "4.6.0-3",
-        revlib_version = "2023.1.1",
-        phoenix_version = "5.30.2",
-        phoenixpro_version = "23.0.1",
-        navx_version = "2023.0.0",
+        revlib_version = "2023.1.2",
+        phoenix_version = "5.30.3",
+        phoenixpro_version = "23.0.2",
+        navx_version = "2023.0.1",
         imgui_version = "1.89.1-1",
         libssh_version = "0.95-6",
         apriltaglib_version = "3.2.0-3"):
@@ -41,13 +41,16 @@ def setup_bazelrio_dependencies(
         sha256 = RULES_JVM_EXTERNAL_SHA,
         strip_prefix = "rules_jvm_external-%s" % RULES_JVM_EXTERNAL_TAG,
     )
+    print("setting up bazelrio_dependencies")
 
     setup_toolchains_dependencies(version = toolchain_versions)
     setup_wpilib_dependencies(version = wpilib_version)
     setup_ni_dependencies(version = ni_version)
     setup_revlib_dependencies(version = revlib_version)
     setup_phoenix_dependencies(version = phoenix_version)
+    print("setting up phoenix 1")
     setup_phoenixpro_dependencies(version = phoenixpro_version)
+    print("setting up phoenix pro 2!!!!", phoenixpro_version)
     setup_navx_dependencies(version = navx_version)
     setup_opencv_dependencies(version = opencv_version)
     setup_imgui_dependencies(version = imgui_version)

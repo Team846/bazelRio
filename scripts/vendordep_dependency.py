@@ -57,6 +57,7 @@ def vendordep_dependency(vendor_file):
                 group_id=cpp_dep["groupId"],
                 artifact_name=cpp_dep["artifactId"],
             )
+            print("group_id", cpp_dep["groupId"])
 
         # Then grab the native libraries
         for cpp_dep in sorted(
