@@ -52,8 +52,4 @@ def setup_navx_2023_0_1_dependencies():
         artifact = "com.kauailabs.navx.frc:navx-frc-java:2023.0.1",
         artifact_sha256 = "f704e31153cbf87acd5ee20f7f764e14c5abef74bcdb5e810597c3c9629fb0ca",
         server_urls = ["https://dev.studica.com/maven/release/2023"],
-<<<<<<< HEAD
     )
-=======
-    )
->>>>>>> f6f9e61a7742bbebfb8de882b9ef6c5bfff461e1
