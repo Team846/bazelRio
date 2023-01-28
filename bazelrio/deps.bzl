@@ -23,7 +23,7 @@ def setup_bazelrio_dependencies(
         revlib_version = "2023.1.2",
         phoenix_version = "5.30.3_23.0.4",
         phoenixpro_version = "23.0.4",
-        navx_version = "2023.0.0",
+        navx_version = "2023.0.3",
         imgui_version = "1.89.1-1",
         libssh_version = "0.95-6",
         apriltaglib_version = "3.2.0-3"):
@@ -48,9 +48,7 @@ def setup_bazelrio_dependencies(
     setup_ni_dependencies(version = ni_version)
     setup_revlib_dependencies(version = revlib_version)
     setup_phoenix_dependencies(version = phoenix_version)
-    print("setting up phoenix 1")
     setup_phoenixpro_dependencies(version = phoenixpro_version)
-    print("setting up phoenix pro 2!!!!", phoenixpro_version)
     setup_navx_dependencies(version = navx_version)
     setup_opencv_dependencies(version = opencv_version)
     setup_imgui_dependencies(version = imgui_version)
