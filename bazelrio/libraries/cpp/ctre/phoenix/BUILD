@@ -7,6 +7,10 @@ CC_NATIVE_LIBS = [
     "@__bazelrio_com_ctre_phoenixpro_sim_simtalonfx_{}//:shared_libs",
     "@__bazelrio_com_ctre_phoenixpro_sim_simpigeonimu_{}//:shared_libs",
     "@__bazelrio_com_ctre_phoenixpro_sim_simcancoder_{}//:shared_libs",
+    "@__bazelrio_com_ctre_phoenixpro_sim_tools-sim_{}//:shared_libs",
+    "@__bazelrio_com_ctre_phoenixpro_sim_simprocancoder_{}//:shared_libs",
+    "@__bazelrio_com_ctre_phoenixpro_sim_simpropigeon2_{}//:shared_libs",
+    "@__bazelrio_com_ctre_phoenixpro_sim_simprotalonfx_{}//:shared_libs",
 ]
 
 cc_library(
@@ -17,7 +21,9 @@ cc_library(
         "@__bazelrio_com_ctre_phoenix_api-cpp_headers//:headers",
         "@__bazelrio_com_ctre_phoenix_cci_headers//:headers",
         "@__bazelrio_com_ctre_phoenix_wpiapi-cpp_headers//:headers",
+        "@__bazelrio_com_ctre_phoenixpro_tools_headers//:headers",
         "//libraries/cpp/wpilib/wpilibc",
+        
     ] + select({
         "@bazel_tools//src/conditions:windows": [lib.format("windowsx86-64") for lib in CC_NATIVE_LIBS],
         "@bazel_tools//src/conditions:linux_x86_64": [lib.format("linuxx86-64") for lib in CC_NATIVE_LIBS],
@@ -26,6 +32,7 @@ cc_library(
             "@__bazelrio_com_ctre_phoenix_wpiapi-cpp_linuxathena//:shared_libs",
             "@__bazelrio_com_ctre_phoenix_cci_linuxathena//:shared_libs",
             "@__bazelrio_com_ctre_phoenix_api-cpp_linuxathena//:shared_libs",
+            "@__bazelrio_com_ctre_phoenixpro_tools_linuxathena//:shared_libs",
         ],
     }),
 )
@@ -37,6 +44,10 @@ JNI_NATIVE_LIBS = [
     "@__bazelrio_com_ctre_phoenixpro_sim_simvictorspx_{}//:shared_libs",
     "@__bazelrio_com_ctre_phoenixpro_sim_simpigeonimu_{}//:shared_libs",
     "@__bazelrio_com_ctre_phoenixpro_sim_simcancoder_{}//:shared_libs",
+    "@__bazelrio_com_ctre_phoenixpro_sim_tools-sim_{}//:shared_libs",
+    "@__bazelrio_com_ctre_phoenixpro_sim_simprocancoder_{}//:shared_libs",
+    "@__bazelrio_com_ctre_phoenixpro_sim_simpropigeon2_{}//:shared_libs",
+    "@__bazelrio_com_ctre_phoenixpro_sim_simprotalonfx_{}//:shared_libs",
 ]
 
 cc_library(
