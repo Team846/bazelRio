@@ -17,7 +17,7 @@ RULES_JVM_EXTERNAL_SHA = "cd1a77b7b02e8e008439ca76fd34f5b07aecb8c752961f9640dea1
 
 def setup_bazelrio_dependencies(
         toolchain_versions = "2023-7",
-        wpilib_version = "2023.2.1",
+        wpilib_version = "2023.4.2",
         ni_version = "2023.3.0",
         opencv_version = "4.6.0-3",
         revlib_version = "2023.1.2",
