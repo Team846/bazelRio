@@ -20,7 +20,7 @@ def setup_bazelrio_dependencies(
         wpilib_version = "2023.4.2",
         ni_version = "2023.3.0",
         opencv_version = "4.6.0-3",
-        revlib_version = "2023.1.2",
+        revlib_version = "2024.1.1",
         phoenix_version = "5.30.3_23.0.4",
         phoenixpro_version = "23.0.4",
         navx_version = "2023.0.3",
