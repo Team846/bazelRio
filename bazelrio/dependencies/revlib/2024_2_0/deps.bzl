@@ -7,7 +7,7 @@ def setup_revlib_2024_2_0_dependencies():
     maybe(
         http_archive,
         "__bazelrio_com_revrobotics_frc_revlib-cpp_headers",
-        strip_prefix = "bazelRio-revlib_24.2.1/rev",
+        strip_prefix = "bazelRio-revlib_24.2.1",
         url = "https://github.com/Team846/bazelRio/archive/refs/tags/revlib_24.2.1.zip",
         build_file_content = cc_library_headers,
     )
