@@ -1,1 +1,0 @@
-exec ./external/__bazelrio_roborio_toolchain_linux/roborio-academic/bin/arm-frc2023-linux-gnueabi-$(basename $0) $@
