@@ -88,7 +88,7 @@ public:
 
     SparkMaxPIDController(const SparkMaxPIDController& rhs) = default;
 
-    ~SparkMaxPIDController() override = default;
+    ~SparkMaxPIDController();
 
     /**
      * Set the controller reference value based on the selected control mode.
