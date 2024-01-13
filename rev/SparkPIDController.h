@@ -55,7 +55,7 @@ public:
 
     SparkPIDController(const SparkPIDController& rhs) = default;
 
-    ~SparkPIDController() override = default;
+    ~SparkPIDController();
 
 private:
     explicit SparkPIDController(CANSparkBase& device);
