@@ -286,11 +286,11 @@ public:
      * @deprecated Use SetPeriodicFramePeriod(CANSparkLowLevel::PeriodicFrame,
      * int) instead
      */
-    WPI_DEPRECATED(
-        "Use SetPeriodicFramePeriod(CANSparkLowLevel::PeriodicFrame, int) "
-        "instead")
-    REVLibError SetPeriodicFramePeriod(CANSparkMaxLowLevel::PeriodicFrame frame,
-                                       int periodMs);
+    // WPI_DEPRECATED(
+    //     "Use SetPeriodicFramePeriod(CANSparkLowLevel::PeriodicFrame, int) "
+    //     "instead")
+    // REVLibError SetPeriodicFramePeriod(CANSparkMaxLowLevel::PeriodicFrame frame,
+    //                                    int periodMs);
 
     /**
      * Set the control frame send period for the native CAN Send thread. To
