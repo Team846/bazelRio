@@ -212,12 +212,12 @@ public:
      *
      * @deprecated Use GetEncoder(SparkRelativeEncoder::Type, int) instead
      */
-    WPI_DEPRECATED(
-        "@deprecated Use GetEncoder(SparkRelativeEncoder::Type, int) instead")
-    SparkRelativeEncoder GetEncoder(
-        SparkMaxRelativeEncoder::Type encoderType =
-            SparkMaxRelativeEncoder::Type::kHallSensor,
-        int countsPerRev = 42);
+    // WPI_DEPRECATED(
+    //     "@deprecated Use GetEncoder(SparkRelativeEncoder::Type, int) instead")
+    // SparkRelativeEncoder GetEncoder(
+    //     SparkMaxRelativeEncoder::Type encoderType =
+    //         SparkMaxRelativeEncoder::Type::kHallSensor,
+    //     int countsPerRev = 42);
 
     /**
      * Returns an object for interfacing with the encoder connected to the
