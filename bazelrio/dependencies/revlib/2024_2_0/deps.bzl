@@ -14,7 +14,7 @@ def setup_revlib_2024_2_0_dependencies():
         http_archive,
         "__bazelrio_com_revrobotics_frc_revlib-driver_headers",
         url = "https://maven.revrobotics.com/com/revrobotics/frc/REVLib-driver/2024.2.0/REVLib-driver-2024.2.0-headers.zip",
-        build_file_content = cc_library_headers,
+        build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
