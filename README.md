@@ -3,7 +3,7 @@
     <br />
     BazelRIO
     <br />
-    <img src="https://img.shields.io/badge/semver-0.10.0-blue">
+    <img src="https://img.shields.io/badge/semver-v2024.1.12-blue">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
     <img src="https://github.com/bazelRio/bazelRio/actions/workflows/build-example.yaml/badge.svg">
@@ -21,9 +21,9 @@ You can include BazelRIO in your project like so:
 ```bazel
 http_archive(
     name = "bazelrio",
-    url = "https://github.com/bazelRio/bazelRio/archive/refs/tags/0.10.0.zip",
-    sha256 = "18b109dbd5204910600823e6c9ff405fa7ed7c43d0a78f24077f8187311745a9",
-    strip_prefix = "bazelRio-0.10.0/bazelrio",
+    url = "https://github.com/bazelRio/bazelRio/archive/refs/tags/v2024.1.12.zip",
+    sha256 = "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    strip_prefix = "bazelRio-v2024.1.12/bazelrio",
 )
 
 load("@bazelrio//:deps.bzl", "setup_bazelrio_dependencies")
@@ -103,8 +103,6 @@ BazelRIO containts library targets for WPILib and some vendor libraries:
 - `@bazelrio//libraries/java/wpilib/wpilibj`
 - `@bazelrio//libraries/cpp/ctre/phoenix`
 - `@bazelrio//libraries/cpp/rev/sparkmax`
-- `@bazelrio//libraries/cpp/rev/sparkflex`
-- `@bazelrio//libraries/cpp/rev/revlib`
 - `@bazelrio//libraries/cpp/rev/colorsensor`
 - `@bazelrio//libraries/cpp/kauailabs/navx`
 
