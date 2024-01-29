@@ -7,25 +7,25 @@ def setup_phoenix_5_30_3_23_0_4_dependencies():
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_api-cpp_headers",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/api-cpp/5.33.0/api-cpp-5.33.0-headers.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/api-cpp/24.1.0/api-cpp-24.1.0-headers.zip",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_api-cpp-sim_headers",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/api-cpp-sim/5.33.0/api-cpp-sim-5.33.0-headers.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/api-cpp-sim/24.1.0/api-cpp-sim-24.1.0-headers.zip",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_cci_headers",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/cci/5.33.0/cci-5.33.0-headers.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/cci/24.1.0/cci-24.1.0-headers.zip",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_cci-sim_headers",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/cci-sim/5.33.0/cci-sim-5.33.0-headers.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/cci-sim/24.1.0/cci-sim-24.1.0-headers.zip",
         build_file_content = cc_library_headers,
     )
     maybe(
@@ -91,85 +91,85 @@ def setup_phoenix_5_30_3_23_0_4_dependencies():
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_wpiapi-cpp_headers",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/wpiapi-cpp/5.33.0/wpiapi-cpp-5.33.0-headers.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/wpiapi-cpp/24.1.0/wpiapi-cpp-24.1.0-headers.zip",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_wpiapi-cpp-sim_headers",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/wpiapi-cpp-sim/5.33.0/wpiapi-cpp-sim-5.33.0-headers.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/wpiapi-cpp-sim/24.1.0/wpiapi-cpp-sim-24.1.0-headers.zip",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_api-cpp_windowsx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/api-cpp/5.33.0/api-cpp-5.33.0-windowsx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/api-cpp/24.1.0/api-cpp-24.1.0-windowsx86-64.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_api-cpp_linuxx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/api-cpp/5.33.0/api-cpp-5.33.0-linuxx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/api-cpp/24.1.0/api-cpp-24.1.0-linuxx86-64.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_api-cpp_linuxathena",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/api-cpp/5.33.0/api-cpp-5.33.0-linuxathena.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/api-cpp/24.1.0/api-cpp-24.1.0-linuxathena.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_api-cpp-sim_windowsx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/api-cpp-sim/5.33.0/api-cpp-sim-5.33.0-windowsx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/api-cpp-sim/24.1.0/api-cpp-sim-24.1.0-windowsx86-64.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_api-cpp-sim_linuxx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/api-cpp-sim/5.33.0/api-cpp-sim-5.33.0-linuxx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/api-cpp-sim/24.1.0/api-cpp-sim-24.1.0-linuxx86-64.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_api-cpp-sim_osxuniversal",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/api-cpp-sim/5.33.0/api-cpp-sim-5.33.0-osxuniversal.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/api-cpp-sim/24.1.0/api-cpp-sim-24.1.0-osxuniversal.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_cci_windowsx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/cci/5.33.0/cci-5.33.0-windowsx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/cci/24.1.0/cci-24.1.0-windowsx86-64.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_cci_linuxx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/cci/5.33.0/cci-5.33.0-linuxx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/cci/24.1.0/cci-24.1.0-linuxx86-64.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_cci_linuxathena",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/cci/5.33.0/cci-5.33.0-linuxathena.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/cci/24.1.0/cci-24.1.0-linuxathena.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_cci-sim_windowsx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/cci-sim/5.33.0/cci-sim-5.33.0-windowsx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/cci-sim/24.1.0/cci-sim-24.1.0-windowsx86-64.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_cci-sim_linuxx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/cci-sim/5.33.0/cci-sim-5.33.0-linuxx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/cci-sim/24.1.0/cci-sim-24.1.0-linuxx86-64.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_cci-sim_osxuniversal",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/cci-sim/5.33.0/cci-sim-5.33.0-osxuniversal.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/cci-sim/24.1.0/cci-sim-24.1.0-osxuniversal.zip",
         build_file_content = cc_library_shared,
     )
     maybe(
@@ -355,48 +355,48 @@ def setup_phoenix_5_30_3_23_0_4_dependencies():
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_wpiapi-cpp_windowsx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/wpiapi-cpp/5.33.0/wpiapi-cpp-5.33.0-windowsx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/wpiapi-cpp/24.1.0/wpiapi-cpp-24.1.0-windowsx86-64.zip",
                 build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_wpiapi-cpp_linuxx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/wpiapi-cpp/5.33.0/wpiapi-cpp-5.33.0-linuxx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/wpiapi-cpp/24.1.0/wpiapi-cpp-24.1.0-linuxx86-64.zip",
                 build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_wpiapi-cpp_linuxathena",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/wpiapi-cpp/5.33.0/wpiapi-cpp-5.33.0-linuxathena.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/wpiapi-cpp/24.1.0/wpiapi-cpp-24.1.0-linuxathena.zip",
                 build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_wpiapi-cpp-sim_windowsx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/wpiapi-cpp-sim/5.33.0/wpiapi-cpp-sim-5.33.0-windowsx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/wpiapi-cpp-sim/24.1.0/wpiapi-cpp-sim-24.1.0-windowsx86-64.zip",
                 build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_wpiapi-cpp-sim_linuxx86-64",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/wpiapi-cpp-sim/5.33.0/wpiapi-cpp-sim-5.33.0-linuxx86-64.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/wpiapi-cpp-sim/24.1.0/wpiapi-cpp-sim-24.1.0-linuxx86-64.zip",
                 build_file_content = cc_library_shared,
     )
     maybe(
         http_archive,
         "__bazelrio_com_ctre_phoenix_sim_wpiapi-cpp-sim_osxuniversal",
-        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/wpiapi-cpp-sim/5.33.0/wpiapi-cpp-sim-5.33.0-osxuniversal.zip",
+        url = "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/sim/wpiapi-cpp-sim/24.1.0/wpiapi-cpp-sim-24.1.0-osxuniversal.zip",
                 build_file_content = cc_library_shared,
     )
     maybe(
         jvm_maven_import_external,
         name = "__bazelrio_com_ctre_phoenix_api-java",
-        artifact = "com.ctre.phoenix:api-java:5.33.0",
+        artifact = "com.ctre.phoenix:api-java:24.1.0",
                 server_urls = ["https://maven.ctr-electronics.com/release"],
     )
     maybe(
         jvm_maven_import_external,
         name = "__bazelrio_com_ctre_phoenix_wpiapi-java",
-        artifact = "com.ctre.phoenix:wpiapi-java:5.33.0",
+        artifact = "com.ctre.phoenix:wpiapi-java:24.1.0",
                 server_urls = ["https://maven.ctr-electronics.com/release"],
     )
